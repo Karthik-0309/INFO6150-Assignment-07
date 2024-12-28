@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- <img src="Images/Login_page.jpeg" alt="Login Image" class="login-image" /> -->
+    <div id="calculator">
+      <form id="loginForm">
+        <div class="input-container">
+          <div class="input-fields">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="error" id="error-email"></div>
+        </div>
+
+        <div class="input-container">
+          <div class="input-fields">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" />
+          </div>
+          <div class="error" id="error-username"></div>
+        </div>
+
+        <div class="input-container">
+          <div class="input-fields">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="error" id="error-password"></div>
+        </div>
+
+        <div class="input-container">
+          <div class="input-fields">
+            <label for="confirmPassword">Confirm Password:</label>
+            <input
+              type="password"
+              name="confirmPassword"
+              id="confirmPassword"
+            />
+          </div>
+          <div class="error" id="error-confirmPassword"></div>
+        </div>
+
+        <input type="submit" id="loginButton" value="Login" />
+      </form>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

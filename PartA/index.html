@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <h1 class="title" id="title-username"></h1>
+    <h2 class="title">Calculator</h2>
+
+    <!-- Adding two number fields -->
+    <div class="calc-container">
+      <div class="inputs-row">
+        <div style="flex-direction: row">
+          <label class="spacing" for="number1">Number 1</label>
+          <input
+            type="text"
+            id="number1"
+            name="number1"
+            placeholder="Enter a number"
+          />
+        </div>
+        <div class="error" id="error-number1"></div>
+      </div>
+
+      <div class="inputs-row">
+        <div style="flex-direction: row">
+          <label class="spacing" for="number2">Number 2</label>
+          <input
+            type="text"
+            id="number2"
+            name="number2"
+            placeholder="Enter a number"
+          />
+        </div>
+        <div class="error" id="error-number2"></div>
+      </div>
+
+      <div class="inputs-row">
+        <div style="flex-direction: row">
+          <label class="spacing" for="result">Result</label>
+          <input
+            style="background: aliceblue"
+            type="text"
+            id="result"
+            name="result"
+            readonly
+            disabled
+          />
+        </div>
+        <div class="error" id="error-result"></div>
+      </div>
+
+      <div class="operations-btns">
+        <button id="add">Add</button>
+        <button id="subtract">Subtract</button>
+        <button id="multiply">Multiply</button>
+        <button id="divide">Divide</button>
+      </div>
+    </div>
+
+    <script src="./login_script.js"></script>
+  </body>
+</html>

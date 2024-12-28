@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <h1 style="text-align: center">Stopwatch App</h1>
+    <div class="stopwatch">
+      <div>
+        <label id="timeLabel">00:00:00</label>
+      </div>
+      <div>
+        <button id="startButton">Start</button>
+        <button id="stopButton">Stop</button>
+        <button id="resetButton">Reset</button>
+      </div>
+      <div>
+        <label for="datePicker">Select Date:</label>
+        <input type="date" id="datePicker" />
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

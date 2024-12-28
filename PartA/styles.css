@@ -1,0 +1,85 @@
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: #333;
+}
+
+label {
+  font-size: 24px;
+  display: block;
+  margin: 20px 0;
+}
+
+input {
+  height: 25px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#calculator {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  margin: 20px 0;
+}
+
+.error {
+  color: red;
+}
+
+.title {
+  text-align: center;
+}
+
+.calc-container * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputs-row {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.spacing {
+  margin-right: 10px;
+}
+
+.operations-btns {
+  flex-direction: row;
+  gap: 10px;
+}
+
+.input-fields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
